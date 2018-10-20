@@ -64,6 +64,31 @@
       </nav>
     </header>
     <!-- END header -->
+        <!-- smaato -->
+    <div id="smt-130530050" style="padding: 0px"></div>
+<script type="text/javascript" src="https://soma-assets.smaato.net/js/smaatoAdTag.js"></script>
+<script>
+	function callBackForSmaato(status){
+		if(status == "SUCCESS"){
+			console.log("callBack is being called with status : " + status);
+		} else if (status == "ERROR"){
+			console.log("callBack is being called with status : " + status);
+		}
+	}; 
+	SomaJS.loadAd({
+          "adDivId": "smt-130530050",
+          "publisherId": 1100041594,
+          "adSpaceId": 130530050,
+          "format": "all",
+          "formatstrict": true,
+          "dimension": "xxlarge",
+          "width": 320,
+          "height": 50,
+          "sync": false
+},callBackForSmaato);
+</script>
+    <!-- smaato -->
+
 
     <section class="site-hero overlay" data-stellar-background-ratio="0.5" style="background-image: url(images/big_image_1.jpg);">
       <div class="container">
