@@ -222,6 +222,30 @@
       </div>
     </section>
 
+<!-- start 300x250 smaato-->    
+    <div id="smt-130530054" style="padding: 0px"></div>
+<script type="text/javascript" src="https://soma-assets.smaato.net/js/smaatoAdTag.js"></script>
+<script>
+	function callBackForSmaato(status){
+		if(status == "SUCCESS"){
+			console.log("callBack is being called with status : " + status);
+		} else if (status == "ERROR"){
+			console.log("callBack is being called with status : " + status);
+		}
+	}; 
+	SomaJS.loadAd({
+          "adDivId": "smt-130530054",
+          "publisherId": 1100041594,
+          "adSpaceId": 130530054,
+          "format": "all",
+          "formatstrict": true,
+          "dimension": "medrect",
+          "width": 300,
+          "height": 250,
+          "sync": false
+},callBackForSmaato);
+</script>
+<!-- end 300x250 smaato-->   
    
     
     <section class="section-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/img_5.jpg);">
