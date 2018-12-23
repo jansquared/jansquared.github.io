@@ -342,6 +342,22 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     
 	  <!-- interstitial-->
 	  <script async="async" data-cfasync="false" src="//tharbadir.com/2?z=2252186"></script>	  
-    <!-- end of Propeller Pungent tag Anti-AdBlock - OnClick (Popunder)-->	  	  
+    <!-- end of Propeller Pungent tag Anti-AdBlock - OnClick (Popunder)-->
+    <!-- --->
+    <script async="async">
+	
+	function sleep(ms) {
+           return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function demo() {
+            console.log('Taking a break...');
+            await sleep(2000);
+            console.log('Two seconds later');
+        }    
+	demo();    
+	document.getElementById("navbarsExample05").click();    
+    </script>	    
+    <!-- --->	  
   </body>
 </html>
